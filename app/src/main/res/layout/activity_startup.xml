@@ -17,5 +17,6 @@
         android:layout_marginLeft="65dp"
         android:layout_marginTop="600dp"
         android:backgroundTint="#EFC852"
-        android:text="@string/getstarted" />
+        android:text="@string/getstarted"
+        android:background="@drawable/edittextbackground"/>
 </LinearLayout>

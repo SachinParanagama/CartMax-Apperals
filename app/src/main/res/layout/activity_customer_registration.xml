@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new1"
+    tools:context=".CustomerRegistration">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/signup"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"/>
+
+    <EditText
+        android:id="@+id/etnameC"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:hint=" Customer Name"
+        android:inputType="textPersonName"
+        android:text="@string/name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etcontactnumC"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:hint=" Contact Number"
+        android:inputType="phone"
+        android:text="@string/contactnumber" />
+
+    <EditText
+        android:id="@+id/etusernameC"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:hint=" User Name"
+        android:inputType="textPersonName"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/etpasswordC"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:text="@string/password" />
+
+    <Button
+        android:id="@+id/btnRegisterC"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittextbackground"
+        android:text="@string/register"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnBackC"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextbackground"
+        android:text="@string/back"
+        android:textSize="16sp" />
+
+</LinearLayout>

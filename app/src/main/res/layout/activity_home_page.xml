@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroungall"
+    android:background="@drawable/new1"
     tools:context=".HomePage">
 
     <Button
@@ -14,6 +14,7 @@
         android:layout_marginTop="236dp"
         android:layout_marginBottom="163dp"
         android:alpha="0.65"
+        android:background="@drawable/edittextbackground"
         android:text="@string/admin"
         app:layout_constraintBottom_toTopOf="@+id/btncustomer"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,6 +28,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginBottom="208dp"
         android:alpha="0.65"
+        android:background="@drawable/edittextbackground"
         android:text="@string/customer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

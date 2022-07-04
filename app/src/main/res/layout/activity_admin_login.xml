@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new1"
+    android:orientation="vertical"
+    tools:context=".AdminLogin">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/adminlogin"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etUsernameAL"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:hint=" User Name"
+        android:inputType="textPersonName"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/etpasswordAL"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/edittextbackground"
+        android:ems="10"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:text="@string/password"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/loginAL"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/edittextbackground"
+        android:text="@string/login"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/registerAL"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittextbackground"
+        android:text="@string/noaccount"
+        android:textSize="18sp" />
+
+</LinearLayout>
