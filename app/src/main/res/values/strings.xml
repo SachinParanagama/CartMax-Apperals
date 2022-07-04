@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CartmaxApperals</string>
+    <string name="cartmaxAppreals">CartmaxApperals</string>
+    <string name="onlineclothingstore">Online Clothing Store</string>
+    <string name="forward">Forward</string>
+    <string name="getstarted">Get Started</string>
+    <string name="admin">I am an Admin</string>
+    <string name="customer">I am an Customer</string>
+</resources>
