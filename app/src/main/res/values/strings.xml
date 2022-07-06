@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CartmaxApperals</string>
+    <string name="cartmaxAppreals">CartmaxApperals</string>
+    <string name="onlineclothingstore">Online Clothing Store</string>
+    <string name="forward">Forward</string>
+    <string name="getstarted">Get Started</string>
+    <string name="admin">I am an Admin</string>
+    <string name="customer">I am an Customer</string>
+    <string name="adminlogin">Admin Login</string>
+    <string name="username" />
+    <string name="password" />
+    <string name="login">Log In</string>
+    <string name="noaccount">Do not have an Account</string>
+    <string name="customerlogin">Customer Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="name" />
+    <string name="contactnumber" />
+    <string name="email" />
+    <string name="register">Register</string>
+    <string name="back">Back</string>
+</resources>
