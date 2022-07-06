@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable back1
+drawable back3
+drawable backgroungall
+drawable cartmax
+drawable frame
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable logonew
+drawable monno
+drawable new1
+id btnadmin
+id btncustomer
+id btnproceed
+id linearLayout
+layout activity_home_page
+layout activity_startup
+mipmap ic_launcher
+mipmap ic_launcher_round
+string admin
+string app_name
+string cartmaxAppreals
+string customer
+string forward
+string getstarted
+string onlineclothingstore
+style Theme.CartmaxApperals
