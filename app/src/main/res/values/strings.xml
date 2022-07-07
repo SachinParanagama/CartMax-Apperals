@@ -18,4 +18,5 @@
     <string name="email" />
     <string name="register">Register</string>
     <string name="back">Back</string>
+    <string name="adminregistration">Admin Registration</string>
 </resources>
