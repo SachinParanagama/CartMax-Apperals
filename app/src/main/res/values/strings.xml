@@ -18,4 +18,18 @@
     <string name="email" />
     <string name="register">Register</string>
     <string name="back">Back</string>
+<<<<<<< Updated upstream
+=======
+    <string name="adminregistration">Admin Registration</string>
+    <string name="todo">TODO</string>
+    <string name="paymentdetails">Payment Details</string>
+    <string name="totalprice">Total Price</string>
+    <string name="price">/=</string>
+    <string name="cardno">Card Number</string>
+    <string name="validuntil">Valid Until</string>
+    <string name="cvv">CVV</string>
+    <string name="cardholder">Card Holder</string>
+    <string name="savecard">Save card details for future payments</string>
+    <string name="confirm">Proceed to confirm</string>
+>>>>>>> Stashed changes
 </resources>
