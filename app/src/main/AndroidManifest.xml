@@ -10,15 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CartmaxApperals">
         <activity
-<<<<<<< Updated upstream
-=======
             android:name=".PaymentDetails"
             android:exported="false" />
         <activity
             android:name=".AdminRegistration"
             android:exported="false" />
         <activity
->>>>>>> Stashed changes
             android:name=".CustomerRegistration"
             android:exported="false" />
         <activity
