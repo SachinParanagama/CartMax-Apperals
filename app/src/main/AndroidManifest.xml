@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CartmaxApperals">
         <activity
+            android:name=".PaymentDetails"
+            android:exported="false" />
+        <activity
             android:name=".AdminRegistration"
             android:exported="false" />
         <activity
