@@ -9,10 +9,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+
+    <list default="true" id="4801768f-005c-4cf1-a003-7260c925980a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/order and payments/activity_payment_details.xml" beforeDir="false" />
+
     <list default="true" id="36a6ae58-1a54-4f62-abd1-1ffd4833ad38" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-v26/activity_payment_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-v26/activity_payment_details.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment_details.xml" beforeDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\New folder\CartMax-Apperals\app\src\main\res\layout-v26" />
       <recent name="D:\New folder\CartMax-Apperals\app\src\main\res\drawable-v24" />
     </key>
     <key name="android.template.-196956541">
