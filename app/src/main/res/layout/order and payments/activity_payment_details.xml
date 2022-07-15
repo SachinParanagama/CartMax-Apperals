@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new1"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".PaymentDetails">
+
+    <ImageButton
+        android:id="@+id/IBbackbtnPD"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/TVtitlePD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/paymentdetails"
+        android:textAlignment="center"
+        android:textColor="#424040"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TVtotpricePD"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/totalprice"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/ETtotpricePD"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="25dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <RadioGroup
+        android:id="@+id/RGpaymentmethodPD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/RBvisaPD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.356"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+            <RadioButton
+                android:id="@+id/RBmasterPD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.299"
+                app:layout_constraintStart_toEndOf="@+id/RBvisaPD"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.091"
+                tools:ignore="TouchTargetSizeCheck" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TVcardnoPD"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/cardno"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ETcardnoPD"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TVvalidPD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/validuntil"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.105"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047" />
+
+        <TextView
+            android:id="@+id/TVcvvPD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cvv"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/TVvalidPD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintStart_toEndOf="@+id/TVvalidPD" />
+
+        <EditText
+            android:id="@+id/ETvaliduntilPD"
+            android:layout_width="108dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="date"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.158"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVvalidPD"
+            app:layout_constraintVertical_bias="0.024"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/ETcvvPD"
+            android:layout_width="108dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintBaseline_toBaselineOf="@+id/ETvaliduntilPD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.638"
+            app:layout_constraintStart_toEndOf="@+id/ETvaliduntilPD"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            android:autofillHints="" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/TVcardholderPD"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/cardholder"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp">
+
+        <TextView
+            android:id="@+id/TVsavecardPD"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="159dp"
+            android:text="@string/savecard"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/SwitchsavecardPD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.901"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.031"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="245dp"
+            android:layout_height="55dp"
+            android:text="@string/confirm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVsavecardPD" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
