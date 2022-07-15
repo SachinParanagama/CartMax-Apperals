@@ -11,7 +11,7 @@
 
     <ImageButton
         android:id="@+id/IBbackbtnPD"
-        android:layout_width="70dp"
+        android:layout_width="60dp"
         android:layout_height="50dp"
         android:background="#00FFFFFF"
         android:contentDescription="@string/todo"
